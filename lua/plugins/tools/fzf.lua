@@ -32,7 +32,8 @@ return {
     keymap('n', '<leader>fb', fzf.buffers, vim.tbl_extend('force', opts, { desc = 'FZF Buffers' }))
     keymap('n', '<leader>fh', fzf.help_tags, vim.tbl_extend('force', opts, { desc = 'FZF Help Tags' }))
     keymap('n', '<leader>fr', fzf.oldfiles, vim.tbl_extend('force', opts, { desc = 'FZF Recent Files' }))
-    keymap('n', '<leader>fx', fzf.quickfix, vim.tbl_extend('force', opts, { desc = 'FZF Recent Files' }))
+    keymap('n', '<leader>fx', fzf.quickfix, vim.tbl_extend('force', opts, { desc = 'FZF Quickfixes' }))
+    keymap('n', '<leader>ft', "<cmd>TodoFzfLua<cr>" , vim.tbl_extend('force', opts, { desc = 'FZF Todos' }))
     -- TODO: Add lsp support
   end,
 }
