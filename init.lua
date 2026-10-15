@@ -1,3 +1,2 @@
-require("core.mappings")
-require("core.options")
-require("core.lazy")
+require("Nousand.core")
+require("Nousand.lazy")
