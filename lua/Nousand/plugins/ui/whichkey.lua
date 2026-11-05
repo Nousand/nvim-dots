@@ -3,10 +3,13 @@ local function icon(glyph, color)
 end
 
 local groups = {
-    { "<leader>f", group = "Find", icon = icon("\u{f002}", "blue") }, -- nf-fa-search
-    { "<leader>g", group = "Git", icon = icon("\u{f1d3}", "orange") }, -- nf-fa-git
-    { "<leader>l", group = "LSP", icon = icon("\u{f121}", "cyan") }, -- nf-fa-code
-    { "<leader>c", group = "Code", icon = icon("\u{f0ad}", "purple") }, -- nf-fa-wrench
+    { "<leader>f", group = "Find", icon = icon("\u{f002} ", "blue") }, -- nf-fa-search
+    { "<leader>g", group = "Git", icon = icon("\u{e702} ", "orange") }, -- nf-dev-git
+    { "<leader>l", group = "LSP", icon = icon("\u{f121} ", "cyan") }, -- nf-fa-code
+    { "<leader>c", group = "Code", icon = icon("\u{f0ad} ", "purple") }, -- nf-fa-wrench
+    { "<leader>m", group = "Format", icon = icon("\u{f0753} ", "purple") }, -- nf-md-format_align_bottom
+    { "<leader>u", group = "UI", icon = icon("\u{f0ae2} ", "yellow") }, -- nf-md-format_align_bottom
+    { "<leader>o", group = "Open", icon = icon("\u{f05da} ", "red") }, -- nf-md-format_align_bottom
 }
 
 return {
